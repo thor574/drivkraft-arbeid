@@ -13,7 +13,7 @@ v	Trinn 1: Lag prosjekt, på github
 v	Trinn 2: Lag datamodell
 v	Trinn 3: Lag bønne
 v	Trinn 4: Lag API med Spring Data Rest
-		http://localhost:8080/oppgaver
+v		http://localhost:8080/oppgaver
 
 	Mikroløsning
 	Trinn 5: Lag nettsider med reactjs og bootstrap
@@ -25,12 +25,14 @@ For å velge versjoner i teknologistakken må jeg først innhente litt informasj
 
 Teknologistakk:
 	STS (Spring Tool Suite), istedenfor Eclipse 2022-09 (har spring innebygget fra start)
-	Gradle 7.5.1, istedenfor Maven 3.8.6 (årsak: vil prøve 'gradle init' kommando)
-	Java?
+	Gradle 7.5.1, istedenfor Maven 3.8.6 (årsak: vil prøve 'gradle init' kommando) (oppdaget at gradle refresh fjerner valgt Java 19, må velge den på nytt i STS)
+	Java må bli 18
+		Dagens STS støtter kun opp til 18.
 		Spring Boot 3.0.0rc2 (siste) - krever Java 17-19, Spring 6.0.0rc4, maven 3.5, gradle 7.5+
 		Spring Framework 6.0.0rc4 (siste) - bygger på jee 9+ (servlet 5.0+, jpa 3.0+), støtter jee 10, virker med tomcat 10.1, jetty 11, undertow 2.3
 		Spring Data Rest 4
-	JEE?
+	JEE 10 (siste) krever Java 11+
+	Tomcat 10.1 (impl. deler av JEE 10) (servlet 6.0, JSP 3.1)
 
 Dette gir rammene for utvikling av applikasjoner som er devops- og skyvennlige, fordi Spring Boot ligger i bunn.  Dette er standard i 2022, ref. seksjon 2 om Springs historie på https://docs.spring.io/spring-framework/docs/6.0.0-RC4/reference/html/overview.html#overview-getting-started
 

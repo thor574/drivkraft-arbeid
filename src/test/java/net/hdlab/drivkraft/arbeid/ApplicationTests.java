@@ -1,4 +1,4 @@
-package net.hdlab.towerdefence.real;
+package net.hdlab.drivkraft.arbeid;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

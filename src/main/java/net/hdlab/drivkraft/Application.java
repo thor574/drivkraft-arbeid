@@ -1,4 +1,4 @@
-package net.hdlab.drivkraft.arbeid;
+package net.hdlab.drivkraft;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -9,10 +9,11 @@ Dette virker som et kult produktnavn innen motivasjon/todoapp bransjen, som jeg 
 Plan Drivkraft - Arbeid (modul)
 
 	Mikrotjeneste
-	Trinn 1: Lag prosjekt, på github
->	Trinn 2: Lag datamodell
-	Trinn 3: Lag bønne
-	Trinn 4: Lag API med Spring Data Rest
+v	Trinn 1: Lag prosjekt, på github
+v	Trinn 2: Lag datamodell
+v	Trinn 3: Lag bønne
+v	Trinn 4: Lag API med Spring Data Rest
+		http://localhost:8080/oppgaver
 
 	Mikroløsning
 	Trinn 5: Lag nettsider med reactjs og bootstrap

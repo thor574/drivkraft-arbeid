@@ -5,10 +5,6 @@ import java.util.Objects;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
-// Brukte mal fra https://github.com/spring-projects/spring-data-examples/blob/main/r2dbc/example/src/main/java/example/springdata/r2dbc/basics/Customer.java
-//record Oppgave(@Id Integer id, String navn) {
-// Var litt for rask der.  Gjør det på eldre måte:
-
 // Brukte mal fra eget prosjekt d-emographics (som er basert på Spring Data Rest eksempel)
 @Entity
 public class Oppgave {

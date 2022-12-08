@@ -13,7 +13,10 @@ v	Trinn 1: Lag prosjekt, på github
 v	Trinn 2: Lag datamodell
 v	Trinn 3: Lag bønne
 v	Trinn 4: Lag API med Spring Data Rest
+v		http://localhost:8080/
+v		http://localhost:8080/kategorier
 v		http://localhost:8080/oppgaver
+v		http://localhost:8080/profile
 
 	Mikroløsning
 	Trinn 5: Lag nettsider med reactjs og bootstrap

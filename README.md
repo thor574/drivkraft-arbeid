@@ -4,4 +4,4 @@ Dette er en prototype på ny teknologistakk, anno 2022-11  (Spring Boot 3, Sprin
 
 Dokumenter med tilgjengelige, nedfelte tanker:
 
-* [A startplan](a startplan.txt)
+* [A startplan](a%20startplan.txt)
